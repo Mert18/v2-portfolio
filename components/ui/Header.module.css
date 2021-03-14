@@ -1,0 +1,22 @@
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 50vh;
+    background-color: #12012A;
+
+}
+.title {
+    font-size: 2.7rem;
+}
+.text {
+    grid-column: 4 / 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.9rem;
+}
+
+.squares {
+}
